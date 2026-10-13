@@ -16,8 +16,10 @@ Requires **Swift 6.4**, **macOS 15 or later**, and Xcode command-line tools. Swi
 git clone --branch 0.6.1 https://github.com/1amageek/MusicPlayground.git
 cd MusicPlayground
 ./Scripts/build-app.sh
-open .build/MusicPlayground.app
+open .build/MusicPlaygournd.app
 ```
+
+Version 0.6.1 retains the historical app filename `MusicPlaygournd.app`.
 
 The build script fetches **SwiftMusic 0.5.1** and creates a locally signed app with the runtime modules needed to evaluate your music. Build on the Mac where you will use the app and keep its compiler and SDK installed. This is a source distribution; a notarized app download is not currently provided.
 
