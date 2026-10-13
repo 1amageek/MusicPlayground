@@ -21,6 +21,7 @@ Browser -> index.html + styles.css + site.js -> local image assets
 - Source preview, macOS/Swift requirements and install commands match README.
 - Primary navigation and installation work without JavaScript. Decorative SVG is hidden from accessibility APIs; motion respects reduced-motion preferences.
 - Mobile layout retains legible text, accessible controls, and no page-level horizontal overflow.
+- The footer groups product identity with a subdued native `By 1amageek` credit linking to https://1amageek.dev/. It remains available without JavaScript and does not compete with product/installation actions.
 
 ## Verification and Change Impact
 Run `node --test --test-timeout=10000 Scripts/test-landing-page.mjs` from the project root. Inspect desktop and mobile renderings, keyboard focus, anchor navigation, copy success/failure and all local asset requests. Product version changes require checking copy and installation commands against README. No native rebuild is needed for static website changes.
